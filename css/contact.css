@@ -1,0 +1,140 @@
+header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+    z-index: 1000;
+    padding: 25px 0;
+    font-weight: 600;
+    color: #fff;
+}
+header:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0px;
+    left: 0;
+    right: 0;
+    background: #000;
+    z-index: -1;
+    opacity: .6;
+}
+header:after {
+    content: '';
+    clear: both;
+}
+header:after {
+    content: '';
+    height: 10px;
+    position: absolute;
+    bottom: -10px;
+    left: 0;
+    right: 0;
+    background: url(../img/triangle_bg_black.png) repeat-x;
+    background-size: 26px 10px;
+    opacity: .6;
+}
+.h-500x {
+    height: 500px !important;
+}
+h2{
+    font-family: 'beyond_the_mountainsregular', sans-serif;
+}
+.bg-5 {
+    background: url(../img/slider_3_1920_600.jpg) no-repeat center;
+    background-size: cover;
+}
+.pos-relative {
+    position: relative;
+    z-index: 1;
+}
+.main-slider {
+    position: relative;
+    z-index: 1;
+}
+.ribbon.secondary {
+    border-color: #1F8330;
+    border-right-color: transparent;
+}
+.pos-bottom {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+.triangle-up:after {
+    content: '';
+    height: 10px;
+    position: absolute;
+    bottom: 0px;
+    left: 0;
+    right: 0;
+    background: url(../img/triangle_bg.png) repeat-x;
+    background-size: 26px 10px;
+}
+.main-slider:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    background: rgba(0,0,0,.4);
+}
+.h-500x {
+    height: 500px !important;
+}
+
+.bg-6 {
+    background: url(../img/slider_4_1920_600.jpg) no-repeat center;
+    background-size: cover;
+}
+.pos-relative {
+    position: relative;
+    z-index: 1;
+}
+.main-slider {
+    position: relative;
+    z-index: 1;
+}
+.form-style-1 input {
+    display: block;
+    width: 100%;
+    padding: 0 20px;
+    border: 0px;
+    border-bottom: 3px solid transparent;
+    background: #EFF6F7;
+    height: 50px;
+    outline: 0;
+    -webkit-transition: all .2s ease-in;
+    transition: all .2s ease-in;
+}
+.mb-20 {
+    margin-bottom: 20px !important;
+}
+.form-style-1 textarea, .form-style-1 input {
+    display: block;
+    width: 100%;
+    padding: 0 20px;
+    border: 0px;
+    border-bottom: 3px solid transparent;
+    background: #EFF6F7;
+    height: 50px;
+    outline: 0;
+    -webkit-transition: all .2s ease-in;
+    transition: all .2s ease-in;
+}
+
+.ptb-20 {
+    padding-top: 20px !important;
+    padding-bottom: 20px !important;
+}
+.h-200x {
+    height: 200px !important;
+}
+.mtb-30 {
+    margin-top: 30px !important;
+    margin-bottom: 30px !important;
+}

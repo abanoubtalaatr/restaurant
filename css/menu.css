@@ -1,0 +1,80 @@
+.h-500x {
+    height: 500px !important;
+}
+h2{
+    font-family: 'beyond_the_mountainsregular', sans-serif;
+}
+.bg-5 {
+    background: url(../img/slider_3_1920_600.jpg) no-repeat center;
+    background-size: cover;
+}
+.pos-relative {
+    position: relative;
+    z-index: 1;
+}
+.main-slider {
+    position: relative;
+    z-index: 1;
+}
+.ribbon.secondary {
+    border-color: #1F8330;
+    border-right-color: transparent;
+}
+.pos-bottom {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+.triangle-up:after {
+    content: '';
+    height: 10px;
+    position: absolute;
+    bottom: 0px;
+    left: 0;
+    right: 0;
+    background: url(../img/triangle_bg.png) repeat-x;
+    background-size: 26px 10px;
+}
+.main-slider:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    background: rgba(0,0,0,.4);
+}
+/* --------- */
+.bg-lite-blue {
+    background: #F4F8F9;
+}
+.bg-seller {
+    background: url(../img/seller-1-160.jpg) no-repeat;
+    background-size: cover;
+    position: relative;
+    z-index: 1;
+}
+/* ________________________ */
+.mb-30 {
+    margin-bottom: 30px !important;
+}
+
+.sided-220x {
+    position: relative;
+}
+.left-text {
+    text-align: left !important;
+}
+.sided-220x .s-left {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 220px;
+    width: 220px;
+}
+.sided-220x .s-right {
+    margin-left: 250px;
+    min-height: 220px;
+}
